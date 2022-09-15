@@ -327,4 +327,14 @@ footer {
 
     }
 
+    #photos {
+        column-count: 3;
+    }
+
+}
+
+@media screed and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
